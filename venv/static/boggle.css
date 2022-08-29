@@ -1,0 +1,100 @@
+body {
+	background-color: rgba(5, 100, 148, 0.85);
+	height: 100vh;
+}
+
+button#submit {
+	margin-left: 50px;
+	display: none;
+}
+
+button#playBtn {
+	display: none;
+}
+
+#game {
+	padding-bottom: 20px;
+	padding-top: 50px;
+}
+
+label {
+	color: white;
+	font-size: 18px;
+	padding-top: 20px;
+	padding-left: 50px;
+}
+
+input {
+	width: 65%;
+	font-size: 18px;
+	width: 100px;
+	padding: 8px 15px;
+	margin: 6px 0;
+	box-sizing: border-box;
+}
+
+em {
+	font-style: normal;
+	font-size: 25px;
+	color: white;
+}
+
+p {
+	color: white;
+	font-size: 20px;
+	margin: 0px;
+}
+
+p#score {
+	font-size: 25px;
+}
+
+ul {
+	color: white;
+	height: 100px;
+	overflow-y: scroll;
+}
+
+button {
+	background-color: #5bc0de;
+	padding: 10px 20px;
+	font-size: 16px;
+	border-radius: 8px;
+	border: none;
+	opacity: 1;
+}
+
+button:hover {
+	opacity: 0.5;
+}
+
+.board {
+	border: solid 1px white;
+	font-family: monospace;
+	font-weight: bold;
+	font-size: 250%;
+	color: lightgray;
+}
+
+.board td {
+	text-align: center;
+	width: 2em;
+	height: 2em;
+	color: lightgray;
+}
+
+.msg {
+	padding: 1em;
+}
+
+.msg.ok {
+	color: white;
+	background-color: green;
+	opacity: 0.75;
+}
+
+.msg.err {
+	color: white;
+	background-color: tomato;
+	opacity: 0.75;
+}
